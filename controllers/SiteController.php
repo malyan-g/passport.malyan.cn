@@ -177,6 +177,7 @@ class SiteController extends Controller
      */
     public function actionRegisterCode()
     {
+        $this->enableCsrfValidation = false;
         $data = ['code' => 1, 'message' => '发送成功'];
         Yii::$app->response->format = Response::FORMAT_JSON;
         $username = Yii::$app->request->post('username');
