@@ -42,8 +42,8 @@ $config = [
                 'host' => 'smtp.mxhichina.com',
                 'username' => 'passport@malyan.cn',
                 'password' => 'MALIANG2baipei',
-                'port' => '25',
-                'encryption' => 'tls',
+                'port' => '465',
+                'encryption' => 'ssl',
             ],
             'messageConfig'=>[
                 'charset'=>'UTF-8',
